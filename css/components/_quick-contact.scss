@@ -1,0 +1,48 @@
+.quick-contact {
+    display: flex;
+    width: 100%;
+    max-width: 960px;
+    margin: auto;
+    text-transform: capitalize;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    background-color: rgb(220, 220, 220);
+    padding: 24px 30px;
+    text-align: center; 
+    font-size: 1.7rem;
+    font-family: Adobe Garamon;
+    color: rgb(2, 0, 111);
+    }
+
+     @media (max-width: 805px) {
+    
+    .quick-contact {
+    display: block;
+    width: 100%;
+    max-width: 960px;
+    margin: auto;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    background-color: rgb(220, 220, 220);
+    padding: 24px 30px;
+    text-align: center; 
+    font-size: 1.8rem;
+    font-family: Adobe Garamon;
+    color: rgb(2, 0, 111);
+
+    p {
+        margin: 12px;
+    }
+    }
+   
+    }
+
+    
+     @media (max-width: 325px) {
+    
+    .quick-contact {
+        font-size: 1rem;
+    }
+   
+    }
+
